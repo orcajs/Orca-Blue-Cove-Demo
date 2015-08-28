@@ -1,0 +1,200 @@
+/*
+	A dark color scheme for Catch Kathmandu
+*/
+
+body {
+    background: url(../images/dark-noise.png) repeat scroll 0 0 transparent;
+}
+body, button, input, select, textarea {
+	color: #aaa;
+}
+.site {
+	background-color: #222;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+#site-title {
+    text-shadow: 2px 2px #000;
+}
+#site-description {
+    color: #777;
+}
+#site-generator {
+    background-color: #000;
+}
+#footer-sidebar  {
+    color: #555;
+}
+#site-generator {
+    border-top: 1px solid #222;
+}
+input[type="text"], 
+input[type="email"], 
+textarea {
+	background-color: transparent;
+}
+#masthead,
+#main-slider,
+#homepage-message,
+#footer-sidebar,
+article .entry-format,
+blockquote,
+pre {
+    background-color: #111;
+}
+input#s {
+    background-image: url("../images/dark-search.png");
+}
+#site-title a,
+.widget-title,
+.entry-header .entry-title a,
+article.sticky .featured-sticky,
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus,
+#homepage-message,
+#featured-post .entry-title,
+article.format-image .entry-title a,
+.post-format .entry-header .entry-title {
+	color: #ddd;
+}
+#header-menu,
+#secondary-menu,
+#footer-menu {
+    background-color: #000;
+}
+#header-menu ul.menu ul a,
+#secondary-menu ul.menu ul a,
+#footer-menu ul.menu ul a{
+	background-color: #000;
+	border-bottom: 1px dotted #444;
+}
+#header-menu ul.menu li:hover > a,
+#header-menu ul.menu a:focus,
+#secondary-menu ul.menu li:hover > a,
+#secondary-menu ul.menu a:focus,
+#footer-menu ul.menu li:hover > a,
+#footer-menu ul.menu a:focus,
+#colophon #access-footer ul.menu a:hover,
+#colophon #access-footer ul.menu a:focus {
+	background-color: #333;
+}
+#header-menu .menu .current-menu-item > a,
+#header-menu .menu .current-menu-ancestor > a,
+#header-menu .menu .current_page_item > a,
+#header-menu .menu .current_page_ancestor > a,
+#secondary-menu .menu .current-menu-item > a,
+#secondary-menu .menu .current-menu-ancestor > a,
+#secondary-menu .menu .current_page_item > a,
+#secondary-menu .menu .current_page_ancestor > a,
+#footer-menu .menu .current-menu-item > a,
+#footer-menu .menu .current-menu-ancestor > a,
+#footer-menu .menu .current_page_item > a,
+#footer-menu .menu .current_page_ancestor > a,
+#colophon .menu .current-menu-item a,
+hr {
+	background-color: #333;
+	color: #fff;
+}
+#featured-post,
+#featured-post #feature-heading,
+#secondary .widget,
+#colophon {
+    border-color: #444;
+}
+.header-sidebar .widget ul.menu a, 
+#secondary-menu ul.menu a, 
+#footer-menu ul.menu a {
+    color: #ddd;
+}
+#header-menu ul.menu ul a,
+#main-slider,
+#homepage-message,
+.site-content article,
+article.sticky .featured-sticky,
+input[type="text"], 
+input[type="email"], 
+textarea,
+#footer-sidebar,
+.wp-caption,
+.entry-content table, 
+.comment-content table, 
+.entry-content td, 
+.comment-content td {
+    border-color: #333;	
+}
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+article.post-password-required input[type=submit],
+li.bypostauthor cite span {
+	background: none #000;
+	border-color: #333;
+}
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: none #333;
+	border-color: #000;
+	
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+th, h1, h2, h3 {
+    color: #ddd;
+}
+.sb-holder {
+	background-color: #222;
+}
+#masthead .sb-holder a:hover {
+	color: #fff;
+}
+.sb-options {
+	background-color: #222;
+}
+.sb-options a {
+	border-color: #333;
+}
+.sb-options a:hover,
+.sb-options a:focus,
+.sb-options a.sb-focus {
+    background-color: #000;
+}
+#nav-below .wp-pagenavi a, 
+#nav-below .wp-pagenavi span, 
+#nav-below #wp_page_numbers ul li a,
+.page-link span,
+.page-link a span {
+	background-color: #111;
+}
+a#scrollup,
+#nav-below .wp-pagenavi a:hover,
+#nav-below #wp_page_numbers ul li a:hover,
+.page-link a span:hover,
+#nav-below .wp-pagenavi span.current, 
+#nav-below #wp_page_numbers ul li.active_page a,
+.page-link span {
+	background-color: #bbb;
+	color: #000;
+}
+#main-slider .entry-container,
+#slider-nav a,
+#main-slider:hover #slider-nav a {
+	background: #333; /* Show a solid color for older browsers */
+	background: rgba(51, 51, 51, 0.6);
+}
+#main-slider .entry-container:hover,
+#main-slider #slider-nav a:hover {
+	background: #333; /* Show a solid color for older browsers */
+	background: rgba(51, 51, 51, 1);
+}
+#main-slider .entry-container:hover,
+#main-slider #slider-nav a:hover {
+	border-color: #000;	
+}
+#controllers a:hover, 
+#controllers a.active {
+	background: #000; /* Show a solid color for older browsers */
+}

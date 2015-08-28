@@ -1,0 +1,46 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="./demo.css">
+
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./jquery-ui.js"></script>
+<script type="text/javascript" src="./orca/orca.js"></script>
+
+<!-- Uncomment next line to use with the Matrix backend -->
+<!-- <script type="text/javascript" src="./orca/orcaMatrix.js"></script> -->
+
+<!-- Uncomment next line to use with the Reflector backend -->
+<!-- <script type="text/javascript" src="./orca/orcaReflector.js"></script> -->
+
+<script type="text/javascript" src="./demo.js"></script>
+<script type="text/javascript" src="./orca/webrtc-polyfill.js"></script>
+
+<!-- Uncomment next line to use with the Matrix backend -->
+<!-- <script type="text/javascript" src="lib/browser-matrix-0.1.1.js"></script> -->
+
+</head>
+<body>
+<audio id="ring">
+<source src="./ukphone.mp3" type="audio/mpeg">
+</audio>
+<div id="page">
+    <!-- Refer to documentation for how to populate the values for the following inputs -->
+	<input type="hidden" id="userid" name="userid" value="uuuu2" >
+	<input type="hidden" id="password" name="password" value="pppp2" >
+	<input type="button" class="callDisconnect" value="Disconnect" disabled="disabled">
+	<input type="button" class="callAccept" value="Accept Incoming Call" disabled="disabled">
+	<input type="button" class="callReject" value="Reject Incoming Call" disabled="disabled">
+	<div class="videoContainer">
+		<video class="remoteVideo" src="" autoplay=""></video>
+		<video class="localVideo" src="" autoplay="" muted=""></video>
+	</div>
+	<div class="sessionStatusInfo">
+	&nbsp;
+	</div>
+	<div class="callStatusInfo">
+	&nbsp;
+	</div>
+</div>
+</body>
+</html>
